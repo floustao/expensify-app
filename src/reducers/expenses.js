@@ -20,8 +20,6 @@ export default (state = expensesReducerDefaultState, action) => {
           return expense;
         };
       });
-    // case 'SET_TEXT_FILTERS':
-    //   return state.filter(expense => expense.description === action.filter);
     default:
       return state;
   }
